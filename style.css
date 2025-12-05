@@ -1,0 +1,65 @@
+/* 기본 배경 및 글꼴 */
+body {
+    background-color: #C69C6D; /* 밝은 커피색 배경 */
+    color: #4B2C20; /* 진한 갈색 텍스트 */
+    font-family: sans-serif;
+}
+
+/* 헤더 또는 주요 섹션 */
+header {
+    background-color: #4B2C20; /* 진한 갈색 헤더 */
+    color: white;
+    padding: 20px;
+}
+
+/* 강조 버튼/링크 */
+.button {
+    background-color: #FF8C00; /* 주황색 강조 */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.coffee-game {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #4B2C20; /* 진한 갈색 배경 */
+    color: white;
+}
+
+.coffee-game {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #4B2C20; /* 진한 갈색 배경 */
+    color: white;
+}
+
+.quiz-box {
+    margin-top: 20px;
+    background-color: #C69C6D; /* 밝은 갈색 퀴즈 상자 */
+    padding: 20px;
+    border-radius: 8px;
+    color: #4B2C20;
+}
+
+.quiz-button {
+    background-color: #FF8C00; /* 주황색 버튼 */
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.quiz-button:hover {
+    background-color: #E67E00; /* 호버 시 색상 어둡게 */
+}
+
+#quiz-result {
+    margin-top: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
